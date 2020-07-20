@@ -1,0 +1,95 @@
+/*
+
+0 - 600px:          Phone
+600px - 900px       Table Portrait
+900px - 1200px      Table Landscape
+[1200px - 1800px]   Desktop Normal Styles
+1800px +            Big Desktop
+
+1em = 16px
+
+ORDER: Base + Typography > General Layout + Grid > Page Layout > Components
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 37.5em) {
+  .section-title {
+    font-size: 2.8rem;
+  }
+}
+
+.dark-blue-text {
+  color: #272341 !important;
+}
+
+.text-color-main {
+  color: #ff69b4;
+  -webkit-text-fill-color: #ff69b4;
+}
+
+@supports (background-clip: text) {
+  .text-color-main {
+    background-image: linear-gradient(135deg, #ff7f50 0%, #ff69b4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .text-color-main {
+    background-image: none;
+    -webkit-text-fill-color: #ff69b4;
+  }
+}
+
+.text-color-main:hover {
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+}
+
+.App {
+  background: #ff7f50;
+  color: #fff;
+  font: 1.6rem;
+}
