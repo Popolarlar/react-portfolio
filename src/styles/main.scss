@@ -1,0 +1,19 @@
+@import './vendors/bootstrap.scss';
+
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+
+@import './base/base';
+@import './base/typography';
+@import './layouts/section';
+@import './layouts/footer';
+
+@import './components/button';
+@import './components/nav';
+@import './components/hero';
+@import './components/about';
+@import './components/skills';
+@import './components/contact';
+@import './components/project';
+
