@@ -22,6 +22,10 @@
         margin: $default-font-size;
         padding: 0 2.8rem;
         transition: all 0.2s ease-in;
+        & img{
+          width:3.3rem;
+          fill:red;
+        }
       }
 
       @include respond(phone) {

@@ -6,17 +6,19 @@ function Nav() {
       <nav id="nav">
         <div className="nav-wrapper">
           <h1 className="nav-wrapper__logo">
-            <a>Img</a>
+            <a src='/'>
+              <img src={require("../images/logo.svg")}></img>
+            </a>
           </h1>
           <ul className="nav-wrapper__menu">
             <li className="nav-wrapper__item">
               <a href="#about">About</a>
             </li>
             <li className="nav-wrapper__item">
-              <a href="#skills">Skill</a>
+              <a href="#skills">Skills</a>
             </li>
             <li className="nav-wrapper__item">
-              <a href="#projects">Project</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="nav-wrapper__item">
               <a href="#contact">Contact</a>

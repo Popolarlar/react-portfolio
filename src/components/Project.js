@@ -1,43 +1,56 @@
-import React from 'react';
+import React from "react";
 
-function Project() {
+function Project(props) {
   return (
-    <React.Fragment>
+    <>
       <div className="row">
         <div className="col-lg-4 col-sm-12">
           <div className="project-wrapper__text">
             <h3 className="project-wrapper__text-title">
-              Personal Portfolio Site
+              {props.project.title}
             </h3>
 
             <div>
-              <p className="mb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" className="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" className="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
+              <p className="mb-4">{props.project.desc}</p>
             </div>
-            <div className="col-lg-8 col-sm-12">
-              <div className="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt className="thumbnail rounded">
-                    <img className="img-fluid" src={require('../images/project.jpg')} alt="Project"/>
-                  </div>
-                </a>
-              </div>
-            </div>
+            <a
+              target="_blank"
+              className={`cta-btn cta-btn--hero ${props.project.liveUrl === "" ? "disable":""}`} 
+              href={props.project.liveUrl}
+              rel="noopener noreferrer"
+            >
+              See Live
+            </a>
+            <a
+              target="_blank"
+              className={`cta-btn text-color-main ${props.project.srcUrl === "" ? "disable":""}`}
+              href={props.project.srcUrl}
+              rel="noopener noreferrer"
+            >
+              Source Code
+            </a>
           </div>
-    </React.Fragment>
+        </div>
+        <div className="col-lg-8 col-sm-12">
+          <div className="project-wrapper__image">
+            <a
+              href={props.project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={props.project.liveUrl === "" ? "disable":""}
+            >
+              <div data-tilt className="thumbnail rounded">
+                <img
+                  className="img-fluid"
+                  src={props.project.imgUrl}
+                  alt="Project"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

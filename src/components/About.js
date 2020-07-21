@@ -29,7 +29,7 @@ function About() {
               I'm always trying to grow and learn something new. I lose track of time when I'm digging in new technologies, solving unusual problems, or exploring new recipe in my kitchen. Please don't hesitate to reach out— I'm happy to chat about work or play!
               </p>
               <span className="d-flex mt-3">
-                <a target="_blank" className="cta-btn cta-btn--resume" href="#!">
+                <a target="_blank" className="cta-btn cta-btn--resume" href={require('../Resume-Ming-Jin Yeh.pdf')}>
                   View Resume
                 </a>
               </span>

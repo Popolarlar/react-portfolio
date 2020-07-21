@@ -1,18 +1,18 @@
 import React from "react";
-import SkillCard from "./SkillCard"
+import SkillCard from "./SkillCard";
 
 const frontend = {
-  name:'Frontend Stack',
-  skills:['JavaScript','React','Sass','Bootstrap']
-}
+  name: "Frontend Stack",
+  skills: ["JavaScript", "React", "Sass", "Bootstrap"],
+};
 const backend = {
   name: "Backend Stack",
-  skills: ['Nodejs', 'Laravel', '.NETCore', 'PostgreSQL']
-}
+  skills: ["Nodejs", "Laravel", ".NETCore", "PostgreSQL"],
+};
 const devTool = {
-  name:"Development Tool",
-  skills:['Git','AWS']
-}
+  name: "Development Tool",
+  skills: ["Git", "AWS"],
+};
 
 function SkillList() {
   return (
@@ -21,13 +21,12 @@ function SkillList() {
         <div className="container">
           <h2 className="section-title">Skills</h2>
           <div className="row skills-wrapper">
-          <SkillCard skills={frontend}/>
-          <SkillCard skills={backend}/>
-          <SkillCard skills={devTool}/>
+            <SkillCard skills={frontend} />
+            <SkillCard skills={backend} />
+            <SkillCard skills={devTool} />
           </div>
         </div>
       </section>
-    
     </>
   );
 }
