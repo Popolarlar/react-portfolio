@@ -1,13 +1,11 @@
 #projects {
   background-color: $white-color;
   color: $dark-blue-text;
-  margin-top: -10rem;
-  padding-top: 15rem;
 
   & a.disable {
-        pointer-events: none;
-        cursor: default;
-        background-image: initial;
+    pointer-events: none;
+    cursor: default;
+    background-image: initial;
   }
 
   @include respond(tab-land) {

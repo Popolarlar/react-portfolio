@@ -6,26 +6,37 @@ function Nav() {
       <nav id="nav">
         <div className="nav-wrapper">
           <h1 className="nav-wrapper__logo">
-            <a src='/'>
-              <img src={require("../images/logo.svg")}></img>
+            <a href="#top">
+              <img
+                src={require("../images/logo.svg")}
+                alt="Ming-Jin(MJ) logo"
+              ></img>
             </a>
           </h1>
           <ul className="nav-wrapper__menu">
             <li className="nav-wrapper__item">
-              <a href="#about">About</a>
+              <a href="#about" onClick={() => toggleMenu()}>
+                About
+              </a>
             </li>
             <li className="nav-wrapper__item">
-              <a href="#skills">Skills</a>
+              <a href="#skills" onClick={() => toggleMenu()}>
+                Skills
+              </a>
             </li>
             <li className="nav-wrapper__item">
-              <a href="#projects">Projects</a>
+              <a href="#projects" onClick={() => toggleMenu()}>
+                Projects
+              </a>
             </li>
             <li className="nav-wrapper__item">
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={() => toggleMenu()}>
+                Contact
+              </a>
             </li>
           </ul>
 
-          <a className="nav-wrapper__toggle" onClick={() => toggleNav()}>
+          <a className="nav-wrapper__toggle" onClick={() => toggleMenu()}>
             <span></span>
           </a>
         </div>
@@ -33,8 +44,7 @@ function Nav() {
     </>
   );
 }
-
-function toggleNav() {
+function toggleMenu() {
   document.querySelector(".nav-wrapper__menu").classList.toggle("open");
 
   document.querySelector(".nav-wrapper__toggle").classList.toggle("open");

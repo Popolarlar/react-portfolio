@@ -18,17 +18,15 @@
       padding: 0;
 
       & a {
-        font-size: 2rem;
         margin: $default-font-size;
         padding: 0 2.8rem;
         transition: all 0.2s ease-in;
-        & img{
-          width:3.3rem;
-          fill:red;
+        & img {
+          height: 3.3rem;
         }
       }
 
-      @include respond(phone) {
+      @include respond(tab-port-sm) {
         width: 100%;
         float: none;
         border-bottom: 1px solid #e1e1e1;
@@ -46,8 +44,7 @@
       margin: 0;
       padding: 0;
 
-      @include respond(phone) {
-        // display: none;
+      @include respond(tab-port-sm) {
         width: 100%;
         float: none;
         display: none;
@@ -68,19 +65,20 @@
         margin: $default-font-size;
         padding: 0 2.8rem;
         transition: all 0.2s ease-in;
+        // border: 3px solid red;
 
         &:hover {
           transform: translateY(-2px);
         }
 
-        @include respond(phone) {
+        @include respond(tab-port-sm) {
           border-bottom: 1px solid #e1e1e1;
           margin: 0;
           padding: 1rem 3rem;
         }
       }
 
-      @include respond(phone) {
+      @include respond(tab-port-sm) {
         display: block;
         margin: 0;
       }
@@ -90,7 +88,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      padding: 2.8rem;
+      padding: 3.2rem;
       display: none;
 
       & span {
@@ -121,31 +119,28 @@
           top: -6px;
           transition: 0.1s transform ease-in-out;
         }
-
-        
       }
 
-      @include respond(phone) {
+      @include respond(tab-port-sm) {
         display: block;
       }
 
       &.open {
-          & span {
-             &::before{
-              //  transform: translate3d(0,-6px,0);
-               transform: rotate(45deg) scaleX(0.6) translate(-6px , 2px);
-             }
-             &::after{
-              //  transform: translate3d(0,6px,0);
-
-               transform: rotate(-45deg) scaleX(0.6)  translate(-6px , -2px);
-             }
-
+        & span {
+          &::before {
+            //  transform: translate3d(0,-6px,0);
+            transform: rotate(45deg) scaleX(0.6) translate(-6px, 2px);
           }
+          &::after {
+            //  transform: translate3d(0,6px,0);
+
+            transform: rotate(-45deg) scaleX(0.6) translate(-6px, -2px);
+          }
+        }
       }
     }
   }
-  @include respond(phone) {
+  @include respond(tab-port-sm) {
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
   }
 }

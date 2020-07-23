@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.828bf54e.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d4fe16c2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d4fe16c2.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.bd6e1cd8.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.0870557f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0870557f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/js/2.11283df0.chunk.js": "/react-portfolio/static/js/2.11283df0.chunk.js",
     "static/js/2.11283df0.chunk.js.map": "/react-portfolio/static/js/2.11283df0.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.69b702070ac0911f4776647389ba78b3.js": "/react-portfolio/precache-manifest.69b702070ac0911f4776647389ba78b3.js",
+    "precache-manifest.333a53dd04a26ed7409679490d15822a.js": "/react-portfolio/precache-manifest.333a53dd04a26ed7409679490d15822a.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.828bf54e.chunk.css.map": "/react-portfolio/static/css/main.828bf54e.chunk.css.map",
+    "static/css/main.bd6e1cd8.chunk.css.map": "/react-portfolio/static/css/main.bd6e1cd8.chunk.css.map",
     "static/js/2.11283df0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.11283df0.chunk.js.LICENSE.txt",
     "static/media/128px-PostgreSQL.png": "/react-portfolio/static/media/128px-PostgreSQL.4e240d70.png",
-    "static/media/profile.jpg": "/react-portfolio/static/media/profile.2a38ae5c.jpg",
-    "static/media/project.jpg": "/react-portfolio/static/media/project.e7d8c196.jpg"
+    "static/media/1platform.png": "/react-portfolio/static/media/1platform.2f6d97c1.png",
+    "static/media/Resume-Ming-Jin Yeh.pdf": "/react-portfolio/static/media/Resume-Ming-Jin Yeh.0a7c58c3.pdf",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.261ead0d.svg",
+    "static/media/onlinebanking.png": "/react-portfolio/static/media/onlinebanking.68f2b992.png",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.4635070a.png",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.2a38ae5c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/js/2.11283df0.chunk.js",
-    "static/css/main.828bf54e.chunk.css",
-    "static/js/main.d4fe16c2.chunk.js"
+    "static/css/main.bd6e1cd8.chunk.css",
+    "static/js/main.0870557f.chunk.js"
   ]
 }
