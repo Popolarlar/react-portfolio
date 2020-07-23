@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5a3e26e3.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e7ca83b3.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e7ca83b3.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.681dcb92.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f9ca524b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f9ca524b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.11283df0.chunk.js": "/react-portfolio/static/js/2.11283df0.chunk.js",
-    "static/js/2.11283df0.chunk.js.map": "/react-portfolio/static/js/2.11283df0.chunk.js.map",
+    "static/js/2.adc20b2d.chunk.js": "/react-portfolio/static/js/2.adc20b2d.chunk.js",
+    "static/js/2.adc20b2d.chunk.js.map": "/react-portfolio/static/js/2.adc20b2d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.def2f0f945586de763f1e3882f686a9d.js": "/react-portfolio/precache-manifest.def2f0f945586de763f1e3882f686a9d.js",
+    "precache-manifest.0ae90dc70be13a1a1673ff406a431481.js": "/react-portfolio/precache-manifest.0ae90dc70be13a1a1673ff406a431481.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.5a3e26e3.chunk.css.map": "/react-portfolio/static/css/main.5a3e26e3.chunk.css.map",
-    "static/js/2.11283df0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.11283df0.chunk.js.LICENSE.txt",
+    "static/css/main.681dcb92.chunk.css.map": "/react-portfolio/static/css/main.681dcb92.chunk.css.map",
+    "static/js/2.adc20b2d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.adc20b2d.chunk.js.LICENSE.txt",
     "static/media/128px-PostgreSQL.png": "/react-portfolio/static/media/128px-PostgreSQL.4e240d70.png",
     "static/media/1platform.png": "/react-portfolio/static/media/1platform.2f6d97c1.png",
     "static/media/Resume-Ming-Jin Yeh.pdf": "/react-portfolio/static/media/Resume-Ming-Jin Yeh.0a7c58c3.pdf",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.11283df0.chunk.js",
-    "static/css/main.5a3e26e3.chunk.css",
-    "static/js/main.e7ca83b3.chunk.js"
+    "static/js/2.adc20b2d.chunk.js",
+    "static/css/main.681dcb92.chunk.css",
+    "static/js/main.f9ca524b.chunk.js"
   ]
 }
