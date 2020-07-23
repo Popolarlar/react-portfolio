@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import SkillList from './components/SkillList';
-import About from './components/About';
-import ProjectList from './components/ProjectList';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import SkillList from "./components/SkillList";
+import About from "./components/About";
+import ProjectList from "./components/ProjectList";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-    <div id="top"></div>
+      <div id="top"></div>
       <Nav />
       <Hero />
       <About />
       <SkillList />
-      <ProjectList/>
+      <ProjectList />
       <Contact />
       <Footer />
     </div>
