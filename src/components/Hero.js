@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -6,14 +7,22 @@ function Hero() {
       <div id="hero" className="jumbotron">
         <div className="container">
           <h1 className="hero-title load-hidden">
-            Hi, my name is <span className="text-color-main">MJ</span>
-            <br />
-            I'm a Front-end Developer, aiming to become Full Stack one day.
+            Hi, I'm <span className="text-color-main">Ming-Jin</span>
+            ,<br />a Front-end Developer with Full Stack aspirations.
           </h1>
           <p className="hero-cta load-hidden">
-            <a className="cta-btn cta-btn--hero" href="#about">
-              Know more
-            </a>
+            <Link
+              activeClass="text-color-main"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-65}
+              duration={500}
+              className="cta-btn cta-btn--hero"
+            >Find out more</Link>
+            {/* <a className="cta-btn cta-btn--hero" href="#about">
+              Find out more
+            </a> */}
           </p>
         </div>
       </div>
