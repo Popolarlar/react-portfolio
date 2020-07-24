@@ -24,13 +24,13 @@ function Footer() {
             >
               <i className="fa fa-github fa-inverse"></i>
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/potl28326/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fa fa-instagram fa-inverse"></i>
-            </a>
+            </a> */}
           </div>
 
           <hr />
