@@ -1,6 +1,6 @@
 import React from "react";
 
-import Nav from "./components/Nav";
+import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import SkillList from "./components/SkillList";
 import About from "./components/About";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div id="top"></div>
-      <Nav />
+      <NavBar />
       <Hero />
       <About />
       <SkillList />

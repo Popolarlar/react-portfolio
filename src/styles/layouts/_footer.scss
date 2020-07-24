@@ -51,6 +51,7 @@
     height: 5rem;
     margin: $default-font-size $default-font-size;
     transition: all 0.2s ease-in;
+    outline:none;
 
     &:hover {
       transform: translateY(-2px);
@@ -58,12 +59,29 @@
   }
 }
 
-.back-to-top i {
-  color: $white-color;
-  margin: 1rem 0 $default-font-size;
-  transition: all 0.2s ease-in;
+.back-to-top {
+  background: transparent;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  font-size: 1.6rem;
 
-  &:hover {
-    transform: translateY(-2px);
+  &:focus {
+    outline: none;
   }
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+
+  & i {
+    color: $white-color;
+    margin: 1rem 0 $default-font-size;
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+  
 }
