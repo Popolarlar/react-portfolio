@@ -6,7 +6,10 @@ function Footer() {
     <>
       <footer className="footer navbar-static-bottom">
         <div className="container">
-          <button className="back-to-top" onClick={()=>scroll.scrollToTop({ duration: 500 })}>
+          <button
+            className="back-to-top"
+            onClick={() => scroll.scrollToTop({ duration: 500 })}
+          >
             <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
           </button>
           <div className="social-links">
@@ -15,14 +18,14 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-linkedin fa-inverse"></i>
+              <i className="fab fa-linkedin fa-inverse"></i>
             </a>
             <a
               href="https://github.com/Popolarlar"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-github fa-inverse"></i>
+              <i className="fab fa-github fa-inverse"></i>
             </a>
             {/* <a
               href="https://www.instagram.com/potl28326/"

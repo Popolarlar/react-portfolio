@@ -25,6 +25,10 @@
 
     &__text {
       margin-bottom: 2.5rem;
+
+      & i {
+        margin: 0 $default-font-size;
+      }
     }
 
     &__text,

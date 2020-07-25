@@ -8,11 +8,12 @@ function NavItem(props) {
         <Link
           activeClass="text-color-main"
           to={props.toLink}
-          spy={true}
+          spy={false}
           smooth={true}
           offset={-65}
           duration={500}
           onClick={props.toggle}
+          onSetActive={(e) => console.log(e.target)}
         >
           {props.item}
         </Link>

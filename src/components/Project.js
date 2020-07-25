@@ -15,17 +15,28 @@ function Project(props) {
             </div>
             <a
               target="_blank"
-              className={`cta-btn cta-btn--hero ${props.project.liveUrl === "" ? "disable":""}`} 
+              className="cta-btn cta-btn--hero"
               href={props.project.liveUrl}
               rel="noopener noreferrer"
+              style={
+                props.project.liveUrl === ""
+                  ? { display: "none" }
+                  : { display: "inline-block" }
+              }
             >
               See Live
             </a>
             <a
               target="_blank"
-              className={`cta-btn text-color-main ${props.project.srcUrl === "" ? "disable":""}`}
+              // className="cta-btn text-color-main"
+              className="cta-btn cta-btn--hero"
               href={props.project.srcUrl}
               rel="noopener noreferrer"
+              style={
+                props.project.srcUrl === ""
+                  ? { display: "none" }
+                  : { display: "inline-block" }
+              }
             >
               Source Code
             </a>
@@ -34,12 +45,14 @@ function Project(props) {
         <div className="col-lg-8 col-sm-12">
           <div className="project-wrapper__image">
             <a
-              href={props.project.liveUrl}
-              target="_blank"
+              // href={props.project.liveUrl}
+              href={props.project.liveUrl === "" ? "" : props.project.liveUrl}
+              target={props.project.liveUrl === "" ? "" : "_blank"}
+              // target="_blank"
               rel="noopener noreferrer"
-              className={props.project.liveUrl === "" ? "disable":""}
+              className={props.project.liveUrl === "" ? "disable" : ""}
             >
-              <div data-tilt className="thumbnail rounded">
+              <div className="thumbnail rounded">
                 <img
                   className="img-fluid"
                   src={props.project.imgUrl}

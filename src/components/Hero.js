@@ -7,8 +7,9 @@ function Hero() {
       <div id="hero" className="jumbotron">
         <div className="container">
           <h1 className="hero-title load-hidden">
-            Hi, I'm <span className="text-color-main">Ming-Jin</span>
-            ,<br />a Front-end Developer with Full Stack aspirations.
+            Hi, I'm <span className="text-color-main">Ming-Jin</span>,
+            <br />a Front-end Developer <br />
+            with Full Stack aspirations.
           </h1>
           <p className="hero-cta load-hidden">
             <Link
@@ -19,7 +20,9 @@ function Hero() {
               offset={-65}
               duration={500}
               className="cta-btn cta-btn--hero"
-            >Find out more</Link>
+            >
+              Find out more
+            </Link>
             {/* <a className="cta-btn cta-btn--hero" href="#about">
               Find out more
             </a> */}

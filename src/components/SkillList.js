@@ -10,7 +10,7 @@ const backend = {
   skills: ["Nodejs", "Laravel", ".NETCore", "PostgreSQL"],
 };
 const devTool = {
-  name: "Development Tool",
+  name: "Development Tools",
   skills: ["Git", "AWS"],
 };
 

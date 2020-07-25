@@ -1,5 +1,6 @@
-import React,{useState} from "react";
-import emailjs from 'emailjs-com';
+import React from "react";
+// import React, { useState } from "react";
+// import emailjs from "emailjs-com";
 
 function Contact() {
   // const [state, setState] = useState({
@@ -13,7 +14,7 @@ function Contact() {
   // const handleSubmit = event => {
   //   event.preventDefault();
   //   console.log("submit!")
-    
+
   //   // code to trigger Sending email
   // };
 
@@ -32,14 +33,21 @@ function Contact() {
         <div className="container">
           <h2 className="section-title">Contact</h2>
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">ming.jin.yeh@gmail.com</p>
+            <p className="contact-wrapper__text">
+              <i className="far fa-envelope"></i>
+              ming.jin.yeh@gmail.com
+            </p>
+            <p className="contact-wrapper__text">
+              <i className="fas fa-mobile-alt"></i>0423 563 220
+            </p>
+
             <a
               target="_blank"
               className="cta-btn cta-btn--resume"
               href="mailto:ming.jin.yeh@gmail.com"
               rel="noopener noreferrer"
             >
-              Call to Action
+              Get in touch
             </a>
           </div>
           {/* <form onSubmit={handleSubmit}>
@@ -61,8 +69,6 @@ function Contact() {
 
             <input type="submit" value="Say Hi"/>
           </form> */}
-
-
         </div>
       </section>
     </>
