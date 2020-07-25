@@ -36,7 +36,7 @@ function About() {
                   <a
                     target="_blank"
                     className="cta-btn cta-btn--resume"
-                    href={require("../Resume-Ming-Jin Yeh.pdf")}
+                    href={require("../Resume - Ming-Jin Yeh.pdf")}
                     rel="noopener noreferrer"
                   >
                     View Resume
