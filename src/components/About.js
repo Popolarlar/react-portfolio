@@ -21,16 +21,16 @@ function About() {
             <div className="col-md-6 col-sm-12">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  I’m a passionate front-end developer looking for opportunities
-                  in Australia. I enjoy building products that provide
-                  exceptional user experiences. Most recently, I built an
-                  e-commerce website for a Melbourne-based wine retailer.
+                  I’m a passionate front-end developer who enjoys building
+                  products which provide exceptional user experiences. Most
+                  recently, I built an e-commerce website for a Melbourne-based
+                  wine retailer.
                 </p>
                 <p className="about-wrapper__info-text">
-                  I'm constantly looking to learn and grow and love losing track
-                  of time digging into new technologies and solving unusual
-                  problems. Check out the projects I've worked on below and feel
-                  free to get in touch!
+                  I'm constantly learning and love losing track of time
+                  investigating new technologies and solving problems. Check out
+                  the projects I've worked on below and feel free to get in
+                  touch!
                 </p>
                 <span className="d-flex mt-3">
                   <a

@@ -2,11 +2,11 @@ import React from "react";
 import SkillCard from "./SkillCard";
 
 const frontend = {
-  name: "Frontend Stack",
+  name: "Front-end Stack",
   skills: ["JavaScript", "React", "Sass", "Bootstrap"],
 };
 const backend = {
-  name: "Backend Stack",
+  name: "Back-end Stack",
   skills: ["Nodejs", "Laravel", ".NETCore", "PostgreSQL"],
 };
 const devTool = {
