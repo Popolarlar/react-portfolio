@@ -37,7 +37,7 @@ function ProjectList() {
             <Project project={onlineBanking} />
 
             <p className="section-title dark-blue-text">
-              More projects coming soon.
+              More projects coming soon
             </p>
           </div>
         </div>
