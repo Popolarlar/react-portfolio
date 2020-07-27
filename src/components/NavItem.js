@@ -13,7 +13,6 @@ function NavItem(props) {
           offset={-65}
           duration={500}
           onClick={props.toggle}
-          onSetActive={(e) => console.log(e.target)}
         >
           {props.item}
         </Link>

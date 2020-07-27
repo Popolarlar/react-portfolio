@@ -21,7 +21,6 @@ function NavBar() {
             <NavItem item="Projects" toLink="projects" toggle={toggleMenu} />
             <NavItem item="Contact" toLink="contact" toggle={toggleMenu} />
           </ul>
-
           <button className="nav-wrapper__toggle " onClick={toggleMenu}>
             <span></span>
           </button>
@@ -35,11 +34,6 @@ function toggleMenu() {
   document.querySelector(".nav-wrapper__menu").classList.toggle("open");
   document.querySelector(".nav-wrapper__toggle").classList.toggle("open");
 }
-
-// function scrollToContact(e) {
-//   toggleMenu();
-//   console.log(e.target);
-// }
 
 function scrollToTop() {
   scroll.scrollToTop({ duration: 500 });
