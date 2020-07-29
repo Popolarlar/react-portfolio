@@ -1,14 +1,11 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 
 function About() {
-  const { t } = useTranslation("about");
-
   return (
     <>
       <section id="about">
         <div className="container">
-          <h2 className="section-title">{t("title")}</h2>
+          <h2 className="section-title">About me</h2>
           <div className="row about-wrapper">
             <div className="col-md-6 col-sm-12">
               <div className="about-wrapper__image">
@@ -23,8 +20,18 @@ function About() {
             </div>
             <div className="col-md-6 col-sm-12">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">{t("paragragh1")}</p>
-                <p className="about-wrapper__info-text">{t("paragragh2")}</p>
+                <p className="about-wrapper__info-text">
+                  I’m a passionate front-end developer who enjoys building
+                  products which provide exceptional user experiences. Most
+                  recently, I built an e-commerce website for a Melbourne-based
+                  wine retailer.
+                </p>
+                <p className="about-wrapper__info-text">
+                  I'm constantly learning and love losing track of time
+                  investigating new technologies and solving problems. Check out
+                  the projects I've worked on below and feel free to get in
+                  touch!
+                </p>
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"
@@ -32,7 +39,7 @@ function About() {
                     href={require("../Resume - Ming-Jin Yeh.pdf")}
                     rel="noopener noreferrer"
                   >
-                    {t("button-view-resume")}
+                    View Resume
                   </a>
                 </span>
               </div>

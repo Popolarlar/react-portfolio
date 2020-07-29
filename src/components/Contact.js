@@ -1,10 +1,8 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 // import React, { useState } from "react";
 // import emailjs from "emailjs-com";
 
 function Contact() {
-  const { t } = useTranslation("contact");
   // const [state, setState] = useState({
   //   name: '',
   //   email: '',
@@ -33,7 +31,7 @@ function Contact() {
     <>
       <section id="contact">
         <div className="container">
-          <h2 className="section-title">{t("title")}</h2>
+          <h2 className="section-title">Contact</h2>
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               <i className="far fa-envelope"></i>
@@ -49,7 +47,7 @@ function Contact() {
               href="mailto:ming.jin.yeh@gmail.com"
               rel="noopener noreferrer"
             >
-              {t("button-call-to-action")}
+              Get in touch
             </a>
           </div>
           {/* <form onSubmit={handleSubmit}>

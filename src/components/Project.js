@@ -1,20 +1,17 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 
 function Project(props) {
-  const { t } = useTranslation("projects");
-
   return (
     <>
       <div className="row">
         <div className="col-lg-4 col-sm-12">
           <div className="project-wrapper__text">
             <h3 className="project-wrapper__text-title">
-              {t(`${props.project.name}.title`)}
+              {props.project.title}
             </h3>
 
             <div>
-              <p className="mb-4">{t(`${props.project.name}.desc`)}</p>
+              <p className="mb-4">{props.project.desc}</p>
             </div>
             <a
               target="_blank"
@@ -27,13 +24,13 @@ function Project(props) {
                   : { display: "inline-block" }
               }
             >
-              {t("button-see-live")}
+              See Live
             </a>
             <a
               target="_blank"
               // className="cta-btn text-color-main"
               className="cta-btn cta-btn--hero"
-              href={props.srcUrl}
+              href={props.project.srcUrl}
               rel="noopener noreferrer"
               style={
                 props.project.srcUrl === ""
@@ -41,7 +38,7 @@ function Project(props) {
                   : { display: "inline-block" }
               }
             >
-              {t("button-src")}
+              Source Code
             </a>
           </div>
         </div>

@@ -1,23 +1,29 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 import SkillCard from "./SkillCard";
 
-const frontend = ["JavaScript", "React", "Sass", "Bootstrap"];
-const backend = ["Nodejs", "Laravel", ".NETCore", "PostgreSQL"];
-const devTool = ["Git", "AWS"];
+const frontend = {
+  name: "Front-end Stack",
+  skills: ["JavaScript", "React", "Sass", "Bootstrap"],
+};
+const backend = {
+  name: "Back-end Stack",
+  skills: ["Nodejs", "Laravel", ".NETCore", "PostgreSQL"],
+};
+const devTool = {
+  name: "Development Tools",
+  skills: ["Git", "AWS"],
+};
 
 function SkillList() {
-  const { t } = useTranslation("skills");
-
   return (
     <>
       <section id="skills">
         <div className="container">
-          <h2 className="section-title">{t("title")}</h2>
+          <h2 className="section-title">Skills</h2>
           <div className="row skills-wrapper">
-            <SkillCard name={t("sub-front-end")} skills={frontend} />
-            <SkillCard name={t("sub-back-end")} skills={backend} />
-            <SkillCard name={t("sub-dev-tool")} skills={devTool} />
+            <SkillCard skills={frontend} />
+            <SkillCard skills={backend} />
+            <SkillCard skills={devTool} />
           </div>
         </div>
       </section>
