@@ -16,6 +16,7 @@ function NavItem(props) {
         >
           {props.item}
         </Link>
+        {props.children}
       </li>
     </>
   );

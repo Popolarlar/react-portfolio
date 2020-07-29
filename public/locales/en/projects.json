@@ -1,0 +1,14 @@
+{
+  "title": "Projects",
+  "onePlatform": {
+    "title": "Winery B2B E-commerce Website",
+    "desc": "Built with PHP Laravel and PostgreSQL."
+  },
+  "onlineBanking": {
+    "title": "Online Banking Website",
+    "desc": "Built with ASP.NET core using C#."
+  },
+  "button-see-live": "See Live",
+  "button-src": "Source Code",
+  "more": "More projects coming soon"
+}

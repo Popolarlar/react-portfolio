@@ -1,0 +1,14 @@
+{
+  "title": "專案經驗",
+  "onePlatform": {
+    "title": "B2B酒廠電商平台",
+    "desc": "使用PHP Laravel及PostgreSQL建立"
+  },
+  "onlineBanking": {
+    "title": "模擬網路銀行",
+    "desc": "使用ASP.NET core及SQL server建立"
+  },
+  "button-see-live": "去看看",
+  "button-src": "原始碼",
+  "more": "更多專案上線中"
+}
