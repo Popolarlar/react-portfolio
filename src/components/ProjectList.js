@@ -25,6 +25,14 @@ const onlineBanking = {
   imgUrl: require("../images/project/onlinebanking.png"),
 };
 
+const javascript30 = {
+  title: "JavaScript 30 Day Challange",
+  desc: "Build something everyday using VanillaJS without a library.",
+  liveUrl: "https://popolarlar.github.io/JavaScript30",
+  srcUrl: "https://github.com/Popolarlar/JavaScript30",
+  imgUrl: require("../images/project/javascript30.png"),
+};
+
 function ProjectList() {
   return (
     <>
@@ -34,6 +42,7 @@ function ProjectList() {
             <h2 className="section-title dark-blue-text">Projects</h2>
             {/* <Project project={portfolio} /> */}
             <Project project={onePlatform} />
+            <Project project={javascript30} />
             <Project project={onlineBanking} />
 
             <p className="section-title dark-blue-text">

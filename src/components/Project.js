@@ -28,8 +28,8 @@ function Project(props) {
             </a>
             <a
               target="_blank"
-              // className="cta-btn text-color-main"
-              className="cta-btn cta-btn--hero"
+              className="cta-btn text-color-main"
+              // className="cta-btn cta-btn--hero"
               href={props.project.srcUrl}
               rel="noopener noreferrer"
               style={
