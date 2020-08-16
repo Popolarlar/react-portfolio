@@ -33,6 +33,15 @@ const javascript30 = {
   imgUrl: require("../images/project/javascript30.png"),
 };
 
+const todolist = {
+  title: "MERN Stack To Do List App",
+  desc:
+    "A full-stack app built with MongoDB, Express, React and Node, hosted on Heroku.",
+  liveUrl: "https://powerful-bastion-47949.herokuapp.com/",
+  srcUrl: "https://github.com/Popolarlar/react-todo-list",
+  imgUrl: require("../images/project/todolist.png"),
+};
+
 function ProjectList() {
   return (
     <>
@@ -43,6 +52,7 @@ function ProjectList() {
             {/* <Project project={portfolio} /> */}
             <Project project={onePlatform} />
             <Project project={javascript30} />
+            <Project project={todolist} />
             <Project project={onlineBanking} />
 
             <p className="section-title dark-blue-text">
