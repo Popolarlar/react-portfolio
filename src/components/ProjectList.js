@@ -42,6 +42,14 @@ const todolist = {
   imgUrl: require("../images/project/todolist.png"),
 };
 
+const youTubeClone = {
+  title: "Material UI YouTube Clone",
+  desc: "A Responsive layout using Material UI.",
+  liveUrl: "https://popolarlar.github.io/react-material-ui-youtube-clone/",
+  srcUrl: "https://github.com/Popolarlar/react-material-ui-youtube-clone",
+  imgUrl: require("../images/project/youTubeClone.png"),
+};
+
 function ProjectList() {
   return (
     <>
@@ -51,6 +59,7 @@ function ProjectList() {
             <h2 className="section-title dark-blue-text">Projects</h2>
             {/* <Project project={portfolio} /> */}
             <Project project={onePlatform} />
+            <Project project={youTubeClone} />
             <Project project={javascript30} />
             <Project project={todolist} />
             <Project project={onlineBanking} />
