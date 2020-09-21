@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83fc91e98a57ec6afd604d675f8f7bf9",
+    "revision": "abb0f9cf47a8e8a74d39150152fc36cb",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "a1e92098b9783973eb6a",
+    "revision": "35ab03f195af956adb80",
     "url": "/react-portfolio/static/css/main.7b9b0e8f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.adc20b2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1e92098b9783973eb6a",
-    "url": "/react-portfolio/static/js/main.9c02434b.chunk.js"
+    "revision": "35ab03f195af956adb80",
+    "url": "/react-portfolio/static/js/main.58f0eb8e.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/1platform.2f6d97c1.png"
   },
   {
-    "revision": "dd87f0eb46aa119960bf1158cc46d44e",
-    "url": "/react-portfolio/static/media/Resume - Ming-Jin Yeh.dd87f0eb.pdf"
+    "revision": "14d271a2c8b6af63fbb3773ba6f745ca",
+    "url": "/react-portfolio/static/media/Resume - Ming-Jin Yeh.14d271a2.pdf"
   },
   {
     "revision": "abdf951a4664e978b29d97db1211b929",
